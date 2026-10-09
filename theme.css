@@ -137,6 +137,8 @@ body {
 	--modal-background: var(--candy-gray-02);
 	--interactive-normal: var(--candy-gray-04);
 	--interactive-hover: var(--candy-gray-05);
+	--list-marker-color: var(--color-cyan);
+	
 
 	--titlebar-background: var(--candy-gray-02);
 	--titlebar-background-focused: var(--candy-gray-03);
@@ -154,13 +156,6 @@ body {
 .nav-file-title.is-active {
   box-shadow: inset 2px 0 0 var(--color-purple);
 
-}
-
-/* reading view */
-.markdown-rendered ol > li::marker,
-/* live preview / source mode */
-.markdown-source-view.mod-cm6 .cm-formatting-list-ol {
-  color: var(--color-cyan);
 }
 
 svg * {
